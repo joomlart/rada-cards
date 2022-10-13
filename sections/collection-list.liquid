@@ -34,7 +34,7 @@
         <h2 id="SectionHeading-{{ section.id }}" class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
   
         {%- if section.settings.show_view_all and section.blocks.size < collections.size and section.settings.view_all_style == 'link' -%}
-          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="{% if section.settings.view_all_style == 'link' %}link hightlight-link link--text{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %} underlined-link large-up-hide" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
+          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="{% if section.settings.view_all_style == 'link' %}link hightlight-link link--text{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %} underlined-link" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
         {%- endif -%}
         </div>
       </div>
@@ -195,7 +195,7 @@
           "label": "t:sections.featured-collection-list.settings.view_all_style.options__3.label"
         }
       ],
-      "default": "solid"
+      "default": "link"
     },
     {
       "type": "header",
