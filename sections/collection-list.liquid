@@ -33,8 +33,8 @@
         <div class="inner">
         <h2 id="SectionHeading-{{ section.id }}" class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
   
-        {%- if section.settings.show_view_all and show_mobile_slider -%}
-          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="link underlined-link large-up-hide" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
+        {%- if section.settings.show_view_all and section.blocks.size < collections.size and block.settings.view_all_style == 'link' -%}
+          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="{% if block.settings.view_all_style == 'link' %}link hightlight-link link--text{% elsif block.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %} underlined-link large-up-hide" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
         {%- endif -%}
         </div>
       </div>
@@ -71,7 +71,7 @@
       {%- endif -%}
     </slider-component>
   
-    {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
+    {%- if section.settings.show_view_all and section.blocks.size < collections.size and block.settings.view_all_style != 'link' -%}
       <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
         <a href="{{ routes.collections_url }}" class="button" id="ViewAllButton-{{ section.id }}" aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
       </div>
@@ -176,6 +176,26 @@
       "id": "show_view_all",
       "default": false,
       "label": "t:sections.collection-list.settings.show_view_all.label"
+    },
+    {
+      "type": "select",
+      "id": "view_all_style",
+      "label": "t:sections.featured-collection-list.settings.view_all_style.label",
+      "options": [
+        {
+          "value": "link",
+          "label": "t:sections.featured-collection-list.settings.view_all_style.options__1.label"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.featured-collection-list.settings.view_all_style.options__2.label"
+        },
+        {
+          "value": "solid",
+          "label": "t:sections.featured-collection-list.settings.view_all_style.options__3.label"
+        }
+      ],
+      "default": "solid"
     },
     {
       "type": "header",
