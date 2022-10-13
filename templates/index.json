@@ -2,6 +2,7 @@
   "sections": {
     "1663955354d4347362": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "166395535416c40f12-0": {
           "type": "slide",
@@ -83,6 +84,7 @@
     },
     "166123731426fbd8a6": {
       "type": "image-with-text-grid",
+      "disabled": true,
       "blocks": {
         "166123731380862203-0": {
           "type": "column",
@@ -125,6 +127,7 @@
     },
     "1661246556b905fdde": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1661246556ab0fcc05-0": {
           "type": "column",
@@ -202,7 +205,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "desktop_layout": "left",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
@@ -246,6 +249,7 @@
     },
     "16639553608d564cc0": {
       "type": "image-with-text-grid",
+      "disabled": true,
       "blocks": {
         "166395536082863daf-0": {
           "type": "column",
@@ -288,6 +292,7 @@
     },
     "166174667909d0a0d7": {
       "type": "featured-collection-list",
+      "disabled": true,
       "blocks": {
         "c0c352b6-f98b-489e-b2ee-379ef60ee895": {
           "type": "column",
@@ -341,6 +346,7 @@
     },
     "166131584236e6d07c": {
       "type": "image-with-text-grid",
+      "disabled": true,
       "blocks": {
         "1661315842627cf75e-1": {
           "type": "column",
@@ -383,6 +389,7 @@
     },
     "1661322877e178c8dc": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "From our Blog",
         "heading_size": "h4",
