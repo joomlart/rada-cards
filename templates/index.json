@@ -214,7 +214,7 @@
       ],
       "settings": {
         "title": "Collections",
-        "heading_size": "h2",
+        "heading_size": "h4",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "color_scheme": "background-1",
