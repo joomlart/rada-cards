@@ -33,8 +33,8 @@
         <div class="inner">
         <h2 id="SectionHeading-{{ section.id }}" class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
   
-        {%- if section.settings.show_view_all and section.blocks.size < collections.size and block.settings.view_all_style == 'link' -%}
-          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="{% if block.settings.view_all_style == 'link' %}link hightlight-link link--text{% elsif block.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %} underlined-link large-up-hide" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
+        {%- if section.settings.show_view_all and section.blocks.size < collections.size and section.settings.view_all_style == 'link' -%}
+          <a href="{{ routes.collections_url }}" id="ViewAll-{{ section.id }}" class="{% if section.settings.view_all_style == 'link' %}link hightlight-link link--text{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %} underlined-link large-up-hide" aria-labelledby="ViewAll-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
         {%- endif -%}
         </div>
       </div>
@@ -71,7 +71,7 @@
       {%- endif -%}
     </slider-component>
   
-    {%- if section.settings.show_view_all and section.blocks.size < collections.size and block.settings.view_all_style != 'link' -%}
+    {%- if section.settings.show_view_all and section.blocks.size < collections.size and section.settings.view_all_style != 'link' -%}
       <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
         <a href="{{ routes.collections_url }}" class="button" id="ViewAllButton-{{ section.id }}" aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
       </div>
