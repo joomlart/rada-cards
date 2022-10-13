@@ -6,7 +6,6 @@
         "166395535416c40f12-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fashion-model-in-black-white.jpg",
             "heading": "WINTER\/SPRING CLOTHING '22 COLLECTIONS",
             "heading_size": "h2",
             "subheading": "",
@@ -27,7 +26,6 @@
         "166395535416c40f12-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
             "heading": "OUR ICONIC DUNGAREES, ARE BACK IN STOCK",
             "heading_size": "h2",
             "subheading": "Unisex and oversized, with extra-big pockets",
@@ -48,7 +46,6 @@
         "e1060bfc-75f4-426b-b95f-72555e63ec82": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/allec-gomes-V2szTzezF2c-unsplash.jpg",
             "heading": "UP TO 50% OFF STYLES",
             "heading_size": "h3",
             "subheading": "Our latest endeavour features designs from around the world with materials so comfortable you won't want to wear anything else every again.",
@@ -90,7 +87,6 @@
         "166123731380862203-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footwear-close-up-man-tying-shoelace.jpg",
             "title": "Made For Day & Night",
             "link_label": "Shop men",
             "link": "shopify:\/\/collections\/mens",
@@ -102,7 +98,6 @@
         "166123731380862203-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mens-fashion-close-up-of-shirt-and-belt.jpg",
             "title": "Spring\/Winter Collections",
             "link_label": "Shop women",
             "link": "shopify:\/\/collections\/women",
@@ -197,7 +192,7 @@
         "description": "<p>Final Clearance Up to 80% Off\t<\/p>",
         "show_description": false,
         "description_style": "uppercase",
-        "collection": "best-seller",
+        "collection": "google-play",
         "show_card_collection": false,
         "products_to_show": 3,
         "columns_desktop": 3,
@@ -255,7 +250,6 @@
         "166395536082863daf-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_722d2347-3e61-4d00-83d6-ff9607e4f7b3.jpg",
             "title": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/all",
@@ -267,7 +261,6 @@
         "166395536082863daf-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18492827_5963987.jpg",
             "title": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/bags-accessories",
@@ -352,7 +345,6 @@
         "1661315842627cf75e-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ver_1.jpg",
             "title": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/women",
@@ -364,7 +356,6 @@
         "1661315842627cf75e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18431022_tp239-blogbanner-01-s80-p-385-326.jpg",
             "title": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/latest-products",
@@ -415,7 +406,6 @@
         "1664110647b9e3e26c-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/adidas-2.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -427,7 +417,6 @@
         "1664110647b9e3e26c-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/celine.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -439,7 +428,6 @@
         "1664110647b9e3e26c-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nike-11_1.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -451,7 +439,6 @@
         "c0e7e888-7c35-4237-8ade-6e2e44de8c93": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-north-face-1_1.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -463,7 +450,6 @@
         "f7bfe4d6-2db9-49b4-8743-9d91349f1c52": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/michael-kors.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -475,7 +461,6 @@
         "77673be6-3642-430f-8c4b-c943e79e2923": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue_1f02433b-e8e9-4e17-86e3-09e1bf60ce8b.png",
             "title": "",
             "icon": "none",
             "icon_position": "center",
