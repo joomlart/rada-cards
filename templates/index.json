@@ -130,8 +130,8 @@
         "1661246556ab0fcc05-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping Orders $60+",
-            "icon": "truck",
+            "title": "24\/7 email delivery within 5 seconds",
+            "icon": "chat_bubble",
             "icon_position": "left",
             "text": "",
             "link_label": "",
@@ -197,20 +197,27 @@
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "itunes"
           }
         },
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "netflix"
+          }
+        },
+        "ce0ce4bc-7c4a-4f98-991f-95a92d465344": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nitendo"
           }
         }
       },
       "block_order": [
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-0",
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-1",
-        "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-2"
+        "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-2",
+        "ce0ce4bc-7c4a-4f98-991f-95a92d465344"
       ],
       "settings": {
         "title": "Collections",
