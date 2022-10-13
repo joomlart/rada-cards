@@ -211,13 +211,41 @@
           "settings": {
             "collection": "nitendo"
           }
+        },
+        "6ebc3bb9-95a4-4c46-9d8e-e1a819a53b51": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xbox-live"
+          }
+        },
+        "68660164-7bfb-4cd6-b911-c2991211ee34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "steam"
+          }
+        },
+        "96c34951-854a-4085-8791-6055e56ae6dc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spotify"
+          }
+        },
+        "4bf56b7c-cd14-4d66-ba5c-9699f916b2af": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "playstation"
+          }
         }
       },
       "block_order": [
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-0",
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-1",
         "template--14369940504855__94a0eb97-7a15-449c-961b-e6f2b838838d-166564582844d825e3-2",
-        "ce0ce4bc-7c4a-4f98-991f-95a92d465344"
+        "ce0ce4bc-7c4a-4f98-991f-95a92d465344",
+        "6ebc3bb9-95a4-4c46-9d8e-e1a819a53b51",
+        "68660164-7bfb-4cd6-b911-c2991211ee34",
+        "96c34951-854a-4085-8791-6055e56ae6dc",
+        "4bf56b7c-cd14-4d66-ba5c-9699f916b2af"
       ],
       "settings": {
         "title": "Collections",
