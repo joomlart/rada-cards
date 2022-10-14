@@ -76,7 +76,6 @@
 
 /* Popup */
 .newsletter-popup {
-  width: 940px;
   max-width: calc(100% - 60px);
   display: flex;
   justify-content: center;
@@ -143,7 +142,6 @@ body.newsletter-message-show .newsletter-message-popup{
   max-height: 81vh;
 }
 .newsletter-popup-title {
-  font-size: 20px;
   text-transform: uppercase;
   margin: 0 0 10px;
 }
@@ -152,9 +150,6 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 .newsletter-popup .popup-content {
   overflow: unset;
-}
-.newsletter-form__field-wrapper #NewsletterForm--Popup {
-  text-align: center;
 }
 
 .newsletter-popup .popup-content .newsletter-form__field-wrapper {
@@ -259,7 +254,6 @@ body.newsletter-message-show .newsletter-message-popup{
     }
     
     .newsletter-popup .popup-wrapper {
-      transform: translateX(-50%);
       background-color: white;
       transition: transform 500ms ease;
     }
@@ -297,7 +291,7 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-    .newsletter-popup{
+    .newsletter-popup {
       width: 90%;
       max-width: 720px;
     }

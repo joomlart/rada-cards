@@ -84,16 +84,6 @@
         "default": true
       },
       {
-        "type": "image_picker",
-        "id": "newsletter_popup_image",
-        "label": "t:settings_schema.newsletter_popup.settings.general.label__5"
-      },
-      {
-        "type": "url",
-        "id": "popup_newsletter_link_image",
-        "label": "t:settings_schema.newsletter_popup.settings.general.label__10"
-      },
-      {
         "type": "text",
         "id": "newsletter_popup_title",
         "label": "t:settings_schema.newsletter_popup.settings.general.label__6"

@@ -1,23 +1,4 @@
-<newsletter-popup class="popup newsletter-popup {% if settings.show_newsletter_popup_image %} customPopup-banner custom-scrollbar{% endif %}" data-newsletter-popup data-delay="{{ settings.newsletter_popup_delay | times:1000 }}" data-expire="{{ settings.newsletter_popup_expire }}" id="newsletter-popup">
-    {%- if settings.show_newsletter_popup_image -%}
-        <div class="popup-banner">
-            {%- if settings.newsletter_popup_image != blank -%}
-                {% assign image =  settings.newsletter_popup_image %}
-                {% if settings.popup_newsletter_link_image != blank %}
-                    <a href="{{ settings.popup_newsletter_link_image }}" target="_blank">
-                {% endif %}
-                    <img srcset="{{ image | img_url: 'master' }} 1x, {{ image | img_url: 'master', scale: 2 }} 2x"
-                    src="{{ image | img_url: 'master' }}"
-                    loading="lazy"
-                    alt="{{ image.alt | default: shop.name | escape }}">
-                {% if settings.popup_newsletter_link_image != blank %}    
-                    </a>
-                {% endif %}
-            {%- else -%}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-            {%- endif -%}
-        </div>
-    {%- endif -%}
+<newsletter-popup class="gradient popup newsletter-popup {% if settings.show_newsletter_popup_image %} customPopup-banner custom-scrollbar{% endif %}" data-newsletter-popup data-delay="{{ settings.newsletter_popup_delay | times:1000 }}" data-expire="{{ settings.newsletter_popup_expire }}" id="newsletter-popup">
     <div class="popup-wrapper">
         <a href="javascript:void(0)" title="{{ 'general.common.close' | t }}" class="popup-close clearfix" data-close-newsletter-popup>
             {% render 'icon-close' %}
@@ -25,9 +6,9 @@
         <div class="overflow">
             <div class="popup-header">
                 {%- if settings.newsletter_popup_title != blank -%}
-                    <h5 class="newsletter-popup-title text-center">
+                    <h4 class="newsletter-popup-title text-center">
                         {{ settings.newsletter_popup_title | escape }}
-                    </h5>
+                    </h4>
                 {%- endif -%}
                 {%- if settings.newsletter_popup_desc != blank -%}
                     <span class="popup-desc text-center">
@@ -60,16 +41,16 @@
                                     {% endif %}
                                     placeholder="{% if settings.select_button_submit == 'default' %}{{ 'newsletter.placeholder' | t }}{% else %}{{ 'newsletter.dont_miss_out_this_sale' | t }}{% endif %}"
                                 >
-                                <label class="field__label hiddenLabels" for="NewsletterForm--Popup">
+                                <label class="field__label" for="NewsletterForm--Popup">
                                     {{ 'newsletter.label' | t }}
                                 </label>
 
                                 {% if settings.select_button_submit == 'default' %}
-                                    <button type="submit" class="button button--primary newsletter-form__button" name="commit" id="Subscribe">
+                                    <button type="submit" class="button button--primary newsletter-form__button field__button" name="commit" id="Subscribe">
                                         {{ 'newsletter.button_label' | t }}
                                     </button>
                                 {% else %}
-                                    <a class="button button--primary newsletter-form__button" href="{{ settings.button_newsletter_link }}" target="_blank">{{ 'newsletter.start_now' | t }}</a>
+                                    <a class="button button--primary newsletter-form__button field__button" href="{{ settings.button_newsletter_link }}" target="_blank">{{ 'newsletter.start_now' | t }}</a>
                                 {% endif %}
                             </div>
                             {% if form.posted_successfully? %}
