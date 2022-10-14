@@ -2,6 +2,10 @@
   "current": {
     "header_layout": "01",
     "footer_layout": "01",
+    "show_newsletter_popup": true,
+    "newsletter_popup_title": "Join Our Mailing List",
+    "newsletter_popup_desc": "Sign Up for exclusive updates, \nnew arrivals & insider only discounts",
+    "newsletter_popup_note": "No, thanks",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
     "gradient_accent_1": "",
