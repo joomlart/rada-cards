@@ -92,7 +92,7 @@
   margin-bottom: 0;
 }
 
-body.newsletter-show{
+body.newsletter-show {
   overflow: hidden;
 }
 
@@ -117,6 +117,7 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 
 .newsletter-popup .popup-banner {
+  --color-foreground:  255,255,255;
   width: 470px;
   height: 100%;
   display: inline-block;
@@ -148,17 +149,18 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 .newsletter-popup .popup-header {
   padding: 0;
-  max-width: 270px;
-  margin: 0 auto;
 }
 .newsletter-popup .popup-content {
-  max-width: 270px;
-  margin: 0 auto;
   overflow: unset;
 }
 .newsletter-form__field-wrapper #NewsletterForm--Popup {
   text-align: center;
 }
+
+.newsletter-popup .popup-content .newsletter-form__field-wrapper {
+  max-width: 100%;
+}
+
 .newsletter-form__field-wrapper .field__labelInline {
   text-align: center;
 }

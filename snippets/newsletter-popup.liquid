@@ -14,7 +14,7 @@
                     </a>
                 {% endif %}
             {%- else -%}
-                <div class="not_img" style="--height_not_img: 470px">470 x 470px</div>
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
             {%- endif -%}
         </div>
     {%- endif -%}
@@ -63,6 +63,14 @@
                                 <label class="field__label hiddenLabels" for="NewsletterForm--Popup">
                                     {{ 'newsletter.label' | t }}
                                 </label>
+
+                                {% if settings.select_button_submit == 'default' %}
+                                    <button type="submit" class="button button--primary newsletter-form__button" name="commit" id="Subscribe">
+                                        {{ 'newsletter.button_label' | t }}
+                                    </button>
+                                {% else %}
+                                    <a class="button button--primary newsletter-form__button" href="{{ settings.button_newsletter_link }}" target="_blank">{{ 'newsletter.start_now' | t }}</a>
+                                {% endif %}
                             </div>
                             {% if form.posted_successfully? %}
                                 <script>
@@ -122,13 +130,6 @@
                                         }
                                     };
                                 </script>
-                            {% endif %}
-                            {% if settings.select_button_submit == 'default' %}
-                                <button type="submit" class="button button--primary newsletter-form__button" name="commit" id="Subscribe">
-                                    {{ 'newsletter.button_label' | t }}
-                                </button>
-                            {% else %}
-                                <a class="button button--primary newsletter-form__button" href="{{ settings.button_newsletter_link }}" target="_blank">{{ 'newsletter.start_now' | t }}</a>
                             {% endif %}
                         </div>
                     {%- endform -%}
