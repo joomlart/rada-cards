@@ -299,7 +299,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "latest-products",
+        "collection": "last-products",
         "show_card_collection": false,
         "products_to_show": 8,
         "columns_desktop": 4,
