@@ -988,6 +988,11 @@ input.mobile-facets__checkbox {
     background-color: #333;
 }
 
+.facets-container-drawer {
+  border-top: 2px solid rgba(var(--color-base-accent-1));
+  border-bottom: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
+}
+
 @media screen and (max-width: 749px) {
     .grid-slider-sidebar {
         margin-bottom: 48px;
@@ -1140,8 +1145,7 @@ input.mobile-facets__checkbox {
         transform: rotate(180deg);
     }
     .facets-container-drawer {
-        display: flex;
-        ;
+        display: flex;;
         flex-flow: row wrap;
         align-items: center;
         column-gap: 0;
