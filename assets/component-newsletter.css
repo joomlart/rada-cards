@@ -75,7 +75,8 @@
 }
 
 /* Popup */
-.newsletter-popup {
+.newsletter-popup,
+.newsletter-message-popup {
   max-width: calc(100% - 60px);
   display: flex;
   justify-content: center;
@@ -108,7 +109,7 @@ body.newsletter-show .newsletter-popup{
   transform: translate3d(-50%,-50%,0);
 }
 
-body.newsletter-message-show .newsletter-message-popup{
+body.newsletter-message-show .newsletter-message-popup {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -129,7 +130,8 @@ body.newsletter-message-show .newsletter-message-popup{
 .popup-banner + .popup-wrapper {
   width: calc(100% - 470px);
 }
-.newsletter-popup .popup-wrapper {
+.newsletter-popup .popup-wrapper ,
+.newsletter-message-popup .popup-wrapper {
   display: inline-block;
   vertical-align: top;
   height: 100%;
@@ -185,11 +187,13 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 
 @media screen and (max-width: 767px) {
-  .newsletter-popup {
+  .newsletter-popup,
+  .newsletter-message-popup {
     width: 400px;
   }
 
-  .newsletter-popup .popup-wrapper {
+  .newsletter-popup .popup-wrapper,
+  .newsletter-message-popup .popup-wrapper {
     width: 100%;
   }
 
@@ -231,7 +235,7 @@ body.newsletter-message-show .newsletter-message-popup{
       overflow: hidden;
     }
 
-    .newsletter-right{
+    .newsletter-right {
       width: 50%;
       padding-top: 50px;
       padding-bottom: 50px;
@@ -248,17 +252,28 @@ body.newsletter-message-show .newsletter-message-popup{
       max-height: 81vh;
     }
 
+    .newsletter-message-popup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      transform: translate(-50%, -50%) scale(0.95);
+      box-shadow: none;
+    }
+
     .newsletter-popup .popup-banner {
       transform: translateX(50%);
       transition: transform 500ms ease;
     }
     
-    .newsletter-popup .popup-wrapper {
+    .newsletter-popup .popup-wrapper,
+    .newsletter-message-popup .popup-wrapper {
       background-color: white;
       transition: transform 500ms ease;
     }
 
-    #newsletter-popup .overflow {
+    #newsletter-popup .overflow,
+    #newsletter-message-popup .overflow {
       padding-top: 75px;
       padding-bottom: 76px;
     }
@@ -268,7 +283,8 @@ body.newsletter-message-show .newsletter-message-popup{
       transform: translate(-50%, -50%) scale(1);
     }
 
-    .newsletter-popup {
+    .newsletter-popup,
+    .newsletter-message-popup {
       transition: all 500ms ease-out;
     }
 
@@ -279,28 +295,30 @@ body.newsletter-message-show .newsletter-message-popup{
 }
 
 @media screen and (min-width: 1025px){
-    .newsletter-right{
+    .newsletter-right {
       padding-left: 50px;
       padding-right: 50px;
     }
 
-    .newsletter-title{
+    .newsletter-title {
       font-size: 30px;
       margin: 0 0 24px 0;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-    .newsletter-popup {
+    .newsletter-popup,
+    .newsletter-message-popup {
       width: 90%;
       max-width: 720px;
     }
 
-    .popup-wrapper .overflow{
+    .popup-wrapper .overflow {
       padding: 45px 25px 21px;
     }
 
-    #newsletter-popup .popup-wrapper .overflow {
+    #newsletter-popup .popup-wrapper .overflow,
+    #newsletter-message-popup .popup-wrapper .overflow {
       padding: 30px 25px 20px;
     }
 
@@ -309,7 +327,7 @@ body.newsletter-message-show .newsletter-message-popup{
       margin-top: 17px;
     }
 
-    .newsletter-popup .popup-banner, .popup-banner+.popup-wrapper{
+    .newsletter-popup .popup-banner, .popup-banner + .popup-wrapper {
       width: 370px;
     }
 }

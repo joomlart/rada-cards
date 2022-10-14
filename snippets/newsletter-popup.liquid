@@ -128,13 +128,15 @@
         </div>
     </div>
 </newsletter-popup>
-<newsletter-message-popup class="popup newsletter-message-popup customPopup-small" data-newsletter-message-popup id="newsletter-message-popup">
+<newsletter-message-popup class="gradient popup newsletter-message-popup customPopup-small" data-newsletter-message-popup id="newsletter-message-popup">
     <div class="popup-wrapper">
         <a href="javascript:void(0)" title="{{ 'general.common.close' | t }}" class="popup-close customPopup-close clearfix" data-close-newsletter-message-popup>
             {% render 'icon-close' %}
         </a>
-        <div class="popup-content custom-scrollbar">
-            <div class="newsletter-message"></div>
+        <div class="overflow">
+            <div class="popup-content custom-scrollbar">
+                <div class="newsletter-message"></div>
+            </div>
         </div>
     </div>
 </newsletter-message-popup>
