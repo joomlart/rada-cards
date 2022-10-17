@@ -138,6 +138,18 @@
         }
       }
     },
+    "general": {
+      "name": "General",
+      "settings": {
+        "header__1": {
+          "content": "Wishlist"
+        },
+        "wishlist": {
+          "label": "Wishlist Feature?",
+          "info": "A wish list allows shoppers to create personalized collections of products they want to buy and send them to their mail for future reference"
+        }
+      }
+    },
     "typography": {
       "name": "Typography",
       "settings": {
