@@ -3270,6 +3270,12 @@
       "preset": {
         "name": "Custom section"
       }
+    },
+    "main_wishlist": {
+      "name": "Wishlist",
+      "settings": {
+        "header__1": "Wishlist"
+      }
     }
   }
 }
