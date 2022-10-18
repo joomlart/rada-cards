@@ -137,6 +137,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/1_1.png",
           "logo_text": "Atoms",
           "logo_font": "helvetica_n4",
           "logo_width": 100,
