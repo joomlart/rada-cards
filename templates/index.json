@@ -1,5 +1,36 @@
 {
   "sections": {
+    "9cd4ece2-8745-4519-b405-34bdd214fe01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14369940504855__9cd4ece2-8745-4519-b405-34bdd214fe01-1666143030c0d169a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14369940504855__9cd4ece2-8745-4519-b405-34bdd214fe01-1666143030c0d169a2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14369940504855__9cd4ece2-8745-4519-b405-34bdd214fe01-1666143030c0d169a2-0",
+        "template--14369940504855__9cd4ece2-8745-4519-b405-34bdd214fe01-1666143030c0d169a2-1"
+      ],
+      "settings": {
+        "class_suffix": "",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663955354d4347362": {
       "type": "slideshow",
       "disabled": true,
@@ -584,6 +615,7 @@
     }
   },
   "order": [
+    "9cd4ece2-8745-4519-b405-34bdd214fe01",
     "1663955354d4347362",
     "166123731426fbd8a6",
     "1661246556b905fdde",
