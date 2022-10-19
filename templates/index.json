@@ -269,6 +269,12 @@
           "settings": {
             "collection": "playstation"
           }
+        },
+        "6cd4f83b-9d4d-4a9d-a307-bea07a5c548a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "facebook"
+          }
         }
       },
       "block_order": [
@@ -279,7 +285,8 @@
         "6ebc3bb9-95a4-4c46-9d8e-e1a819a53b51",
         "68660164-7bfb-4cd6-b911-c2991211ee34",
         "96c34951-854a-4085-8791-6055e56ae6dc",
-        "4bf56b7c-cd14-4d66-ba5c-9699f916b2af"
+        "4bf56b7c-cd14-4d66-ba5c-9699f916b2af",
+        "6cd4f83b-9d4d-4a9d-a307-bea07a5c548a"
       ],
       "settings": {
         "title": "Collections",
