@@ -62,9 +62,9 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Bảo hành 24h đổi trả 1-1",
+            "heading": "Warranty 24 hours exchange 1-1",
             "icon": "clipboard",
-            "content": "<p>Team hỗ trợ bảo hành login, change pass, change mail<\/p>",
+            "content": "<p>Warranty support team login, change pass, change mail<\/p>",
             "image_ratio": "43",
             "page": ""
           }
@@ -72,9 +72,9 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sản phẩm sẽ được gửi qua email",
+            "heading": "Products will be sent via email",
             "icon": "truck",
-            "content": "<p>Để đảm bảo an toàn và tiện cho anh em khi tìm kiếm lại<\/p>",
+            "content": "<p>To ensure your safety and convenience when searching again<\/p>",
             "image_ratio": "43",
             "page": ""
           }
@@ -82,9 +82,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Tặng credit khi mua sản phẩm",
+            "heading": "Give credit when buying products",
             "icon": "chat_bubble",
-            "content": "<p>Credit sẽ được tự động cộng vào tài khoản của bạn<\/p>",
+            "content": "<p>Credit will be automatically added to your account<\/p>",
             "image_ratio": "43",
             "page": ""
           }
