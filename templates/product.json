@@ -73,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Products will be sent via email",
-            "icon": "truck",
+            "icon": "recycle",
             "content": "<p>To ensure your safety and convenience when searching again<\/p>",
             "image_ratio": "43",
             "page": ""
@@ -83,7 +83,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Give credit when buying products",
-            "icon": "chat_bubble",
+            "icon": "plane",
             "content": "<p>Credit will be automatically added to your account<\/p>",
             "image_ratio": "43",
             "page": ""
