@@ -61,33 +61,30 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Size chart",
+            "heading": "Bảo hành 24h đổi trả 1-1",
             "icon": "clipboard",
-            "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
+            "content": "<p>Team hỗ trợ bảo hành login, change pass, change mail<\/p>",
             "image_ratio": "43",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Sản phẩm sẽ được gửi qua email",
             "icon": "truck",
-            "content": "<p>- Ships Worldwide<br\/>- Free Shipping all orders over $50 (the contiguous US only)<br\/>- Free returns\/exchanges up to 30 days from purchase<\/p>",
+            "content": "<p>Để đảm bảo an toàn và tiện cho anh em khi tìm kiếm lại<\/p>",
             "image_ratio": "43",
             "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "HELP & ADVICE",
+            "heading": "Tặng credit khi mua sản phẩm",
             "icon": "chat_bubble",
-            "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
+            "content": "<p>Credit sẽ được tự động cộng vào tài khoản của bạn<\/p>",
             "image_ratio": "43",
             "page": ""
           }
