@@ -266,6 +266,7 @@
         },
         "4bf56b7c-cd14-4d66-ba5c-9699f916b2af": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "playstation"
           }
